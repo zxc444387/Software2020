@@ -13,21 +13,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 str(iris)
-#summary()
+summary(iris)
 ```
 
 # Problem 2:
 
 The sample median of the variable Petail.With is  
 ```{r}
-median($Petail.with)
+median(iris$Petal.Width,na.rm=FALSE)
 ```
 
 
 # Problem 3: Draw a histograms of the Sepal.Length variable
 
 ```{r}
-hist($Sepal)
+hist(iris$Petal.Length)
 ```
 
 # Problem 4: Draw a scatter plot 
+```{r}
+pairs(iris)
+```
+
