@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 str(iris)
-#summary()
+summary(iris)
 ```
 
 # Problem 2:
